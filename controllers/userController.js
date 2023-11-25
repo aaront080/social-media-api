@@ -21,6 +21,15 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
 
+    createUser( req, res) {
+        User.create({
+            username:req.body.username,
+            email: req.body.email
+        })
+        .then((dbUserData) => res.json(dbUserData))
+        .catch((err) => res.status(500).json(err));
+    },
+
     updateUser(req, res) {
         User.findOneAndUpdate(
             { _id: req.params.userId },
