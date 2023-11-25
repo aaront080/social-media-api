@@ -22,10 +22,17 @@ This application is a functional Social Media API that was created by utilizing 
 The user should clone down this repository to utilize this application. User will also need to install express and MongoDB as well as all the necessary dependencies.
 
 ## Usage
-Anyone that wants to generate a professional README can utilize application.
+![Get request for all users_thoughts](https://github.com/aaront080/social-media-api/assets/143736506/babc7d22-875b-4880-b9b3-ddb395a9d51e)
 
-![Untitled_ Nov 7, 2023 11_21 PM](https://github.com/aaront080/MVC-Tech-Blog/assets/143736506/fc9b2405-b5f5-4dbd-8f88-e9cf814dffe0)
+- Get request for all users
 
+![GET user by ID](https://github.com/aaront080/social-media-api/assets/143736506/e41ed644-10d5-4fb4-bb7e-d164446cf4a8)
+
+- Get request for user by ID 
+
+![POST user](https://github.com/aaront080/social-media-api/assets/143736506/5f7e57da-2a5b-4ec8-bdb4-9a86c63359e9)
+
+-Post request for user
 
 Click this image to see a walkthrough of this application!
 
